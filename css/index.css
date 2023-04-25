@@ -17,8 +17,14 @@ body{
     padding: 65px;
 }
 
-.question{
+.div-input-prompt{
+    display: grid;
+    grid-template-rows: auto auto;
     margin-bottom: 20px;
+}
+
+.div-input-prompt .input-txt-field{
+    border-radius: 5px;
 }
 
 .label-txt{
